@@ -1,0 +1,169 @@
+{
+  "status": 200,
+  "message": "OK",
+  "data": {
+    "product": {
+      "category": {
+        "upper": "바지",
+        "lower": "트레이닝/조거 팬츠 (코드그라피)"
+      },
+      "brand": "DIMITRI BLACK",
+      "code": "DBC8DP03GRBF",
+      "season" : "2023 F/W",
+      "gender": "남",
+      "views": 0,
+      "register": {
+        "company_name / representive": "주식회사 소나무인더스트리 / 정성우",
+        "brand": "디미트리블랙",
+        "business_phone": 3738702270,
+        "complain_address": "2020-서울중구-0386",
+        "phone": "02-719-8997",
+        "email": "dimitrisonamu@gmail.com",
+        "register_address": "서울 마포구 토정로32길 17 4충",
+        "return_address": "(22831) 인천 서구 염곡로 133 CJ대한통운 1라인[제이케이로직]"
+      },
+      "product_info": {
+        "material": "제품 소재",
+        "color": "색상",
+        "size": "치수",
+        "manufacturer": "제조사",
+        "made_in": "한국",
+        "warn": "세탁방법 ∙ 취급시 주의사항",
+        "manufacturing_date": "",
+        "A/S_standard": "품질 보증 기준"
+        "A/S책임자 ∙ number": "a/s 책입자, number"
+      }
+    },
+
+    "images": [
+      {
+        // 글같은걸로 대표이미지는 첫번쨰 이미지 입니다.
+        "id": 1,
+        "type": "Thumbnail",
+        "url": "https://s3.amazon.com-"
+      },
+      {
+        "id": 2,
+        "type": "Thumbnail",
+        "url": "https://s3.amazon.com-"
+      }
+    ],
+    "information": [ //제품 상세정보
+      {
+        "id": 1,
+        "type": "information",
+        "url": "https://s3.amazon.com-"
+      },
+      {
+        "id": 2,
+        "type": "information",
+        "url": "https://s3.amazon.com-"
+      }
+    ],
+    "delivery": {
+      "release_info": "결제 3일 이내 출고",
+      "delivery_info": {
+        "id": 1,
+        "?": "국내 배송",
+        "?": "입점사배송",
+        "delivery_company": "롯데택배"
+      }
+    },
+    "price": {
+      "shop_price": 69900,
+      "member_price": [
+        45231,
+        62910
+      ],
+      "reward_price": 2517,
+      "delivery_price": 3000
+    },
+    "options": [
+      {
+        "type": "M",
+        "price": 3000
+      },
+      {
+        "type": "L",
+        "price": 5000
+      }
+    ],
+    "reivew": [
+      {
+        "reviewer": {
+          "nickName": "두부의시선",
+          "reviewerProfilePhoto": {
+            "id": 2,
+            "type": "Thumbnail",
+            "url": "https://s3.amazon.com-"
+          }
+        },
+        "reviewAt": "2023.10.05",
+        "reviewProductOrderedImage": {} // keep
+        "star": 0.0,
+        "like": 0,
+        "stylishImages": [ // 리뷰어가 찍은 스타일 이미지
+          {
+            "id": 182,
+            "type": "reviwerStyleImage",
+            "url": "https://s3.amazon.com-"
+          },
+          {
+            "id": 183,
+            "type": "reviwerStyleImage",
+            "url": "https://s3.amazon.com-"
+          }
+        ],
+        "comments": [
+          {
+            "commenter": {
+              "nickName": "두부의시선",
+              "grade": "회원",
+              "reviewerProfilePhoto": {
+                "id": 2,
+                "type": "Thumbnail",
+                "url": "https://s3.amazon.com-"
+              },
+              "replay_coments": [{}, {}] // ???(하지않아도댐)
+            },
+            "commentedAt": "2023.11.28 09:21"
+          },
+          {
+
+          }
+        ]
+      },
+      {}
+    ],
+    "QnA": [ // TODO: 숙제
+      {},
+      {}
+    ],
+    // TODO: 배열타입 또는 해쉬키타입
+    "guide": {
+      "fit": { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" },
+      "texture": { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" },
+      "stretch": { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" },
+      "비침": { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" },
+      "thickness" : { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" },
+      "season": { "스키니": "", "슬림": "", "레귤러": "", "루즈": "", "오버사이즈": "" }
+    },
+    "hashtag": [
+      { "name": "건빵 바지" },
+      { "name": "청바지" }
+    ],
+    "like": 12921,
+    "조회수": 0, // TODO: 조회수는 상품 디테일 페이지로 이동함과 동시에 비동기 이벤트를 발생시켜 조회 API 의 count 를 업데이트한다.
+    "누적판매": 0, // TODO: 주문쪽 도메인을 빼봐야 안다.
+    "별점평균": 0.0
+  }
+}
+
+
+order{
+  "id" : 1,
+  "member_id" : 2,
+  "prduct_quantity",
+  "total_price" : 30,000,
+
+}
