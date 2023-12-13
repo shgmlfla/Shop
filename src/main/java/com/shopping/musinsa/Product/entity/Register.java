@@ -38,8 +38,7 @@ public class Register {
     @Column
     private String return_address;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id")
     private Product product;
-
 }

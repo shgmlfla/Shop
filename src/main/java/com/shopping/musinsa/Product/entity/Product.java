@@ -1,6 +1,7 @@
 package com.shopping.musinsa.Product.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -34,9 +35,11 @@ public class Product {
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ProductCategory> productCategories = new ArrayList<>();
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "product")
-    private List<Register> registers = new ArrayList<>();
+    @OneToMany(mappedBy = "product")
+    @JsonIgnoreProperties("product")
+    private List<Register> registerList = new ArrayList<>();
 
-    @OneToMany
-    private List<Product_info> product_infos = new ArrayList<>();
+    @OneToMany(mappedBy = "product")
+    @JsonIgnoreProperties("product")
+    private List<Product_info> productInfoList;
 }

@@ -35,7 +35,8 @@ public class Product_info {
     @Column
     private String as_standard;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id")
     private Product product;
+
 }
